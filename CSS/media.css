@@ -1,0 +1,92 @@
+/* container containeror main container*/
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .hero-section .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-image {
+    order: 1;
+    width: 90%;
+  }
+  .hero-content {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chefs .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallary .container {
+    columns: 1;
+  }
+  .location-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .location-items .location-item {
+    width: 100%;
+  }
+  .foot .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot-left,
+  .foot-center,
+  .foot-right {
+    width: 100%;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .input-items form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-items .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .input-items .input-group input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    padding-inline: 15px;
+  }
+}
